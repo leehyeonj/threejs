@@ -1,9 +1,10 @@
-import "./styles.css";
+
 import Meshes from "./Meshes";
+import MouseMove from "./pages/MouseMove";
 export default function App() {
   return (
-    <div className="App">
-      <Meshes />
-    </div>
+   
+      <MouseMove />
+   
   );
 }
